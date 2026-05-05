@@ -1,0 +1,8 @@
+txtstreamlit
+sentence-transformers
+chromadb
+pypdf
+groq
+python-dotenv
+tenacity==8.2.3
+tf-keras
