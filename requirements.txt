@@ -1,4 +1,4 @@
-txtstreamlit
+streamlit
 sentence-transformers
 chromadb
 pypdf
