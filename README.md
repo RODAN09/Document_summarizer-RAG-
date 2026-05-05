@@ -7,9 +7,13 @@ Deployed on Render: https://document-summarizer-rag-2.onrender.com
 How it Works: 
 
 PDF Upload → Extract Text → Chunk Text → Create Embeddings
+
                                                 ↓
+                                                
 User Question → Embed Question → Search ChromaDB → Retrieve Top Chunks
+
                                                 ↓
+                                                
                               Chunks + Question → Groq LLM → Answer
 
 Upload a PDF document via the sidebar
