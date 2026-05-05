@@ -7,11 +7,8 @@ import chromadb
 from pypdf import PdfReader
 from sentence_transformers import SentenceTransformer
 from groq import Groq
-from dotenv import load_dotenv
 
-load_dotenv()
-
-GROQ_API_KEY  = os.getenv("GROQ_API_KEY")
+GROQ_API_KEY  = os.getenv("enter your api key here :")
 CHUNK_SIZE    = 500
 CHUNK_OVERLAP = 50
 TOP_K         = 3
